@@ -1,0 +1,43 @@
+[tool.poetry]
+name = "coinem"
+version = "0.0.1"
+description = "Coin expectation maximisation"
+authors = ["Daniel Dodd <daniel_dodd@icloud.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.12"
+jax = "*"
+jaxlib = "*"
+simple-pytree = "^0.1.7"
+jaxtyping = "^0.2.14"
+optax = "*"
+chex = "*"
+matplotlib = "*"
+pandas = "*"
+scipy = "*"
+numpy = "*"
+# NOTE: Using stable versions (JAX 0.6.x, TFP 0.25.0, NumPy 1.26.x) for full compatibility
+
+[tool.poetry.group.dev.dependencies]
+black = "23.1.0"
+pytest = "^7.2.1"
+pytest-cov = "^4.0.0"
+isort = "^5.12.0"
+pre-commit = "^3.2.2"
+pytest-pretty = "^1.2.0"
+pytest-xdist = "^3.2.1"
+coverage = "^7.2.3"
+absolufy-imports = "^0.3.1"
+pylint = "^2.17.2"
+nox = "^2022.11.21"
+ruff = "^0.0.261"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]  # https://black.readthedocs.io/en/stable/usage_and_configuration/the_basics.html#configuration-via-a-file
+line-length = 88
+target-version = ["py38"]
