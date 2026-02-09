@@ -1,5 +1,5 @@
 <h1 align="center">Momentum SVGD-EM for Accelerated Maximum Marginal Likelihood Estimation</h1>
-<h3 align="center">AISTATS 2025 (poster)</h3>
+<h3 align="center">AISTATS (poster)</h3>
 <p align="center">
   <a href="https://YOUR-LINK-HERE">Adam Rozzio</a> ·
   <a href="https://statml.io/students/rafael-athanasiades/">Rafael Athanasiades</a> ·
