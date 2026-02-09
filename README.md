@@ -9,7 +9,7 @@
 ---
 
 ## Description
-This repository contains code for **M-SVGD-EM (Momentum-accelerated Stein Variational Gradient Descent Expectation–Maximisation)**, an extension of particle-based EM algorithm SVGD-EM for maximum likelihood training of latent variable models.
+This repository contains code for **M-SVGD-EM (Momentum Stein Variational Gradient Descent Expectation–Maximisation)**, an accelerated particle-based EM algorithm for maximum likelihood training of latent variable models.
 
 ---
 
